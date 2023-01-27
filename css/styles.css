@@ -130,10 +130,10 @@ body {
 .item-nav {
   margin-right: 46px;
 }
-.list-header > .item-header:not(:last-child) {
+.nav__list > .item-header:not(:last-child) {
   margin-right: 50px;
 }
-.list-header > .item-header:not(:last-child) {
+.nav__list > .item-header:not(:last-child) {
   margin-left: 315px;
 }
 .list-format {
@@ -360,7 +360,7 @@ button::first-letter {
   line-height: 1.71;
   color: #ffffff99;
 }
-.list-header {
+.nav__list {
   display: flex;
   align-items: center;
   margin: 0 auto;
