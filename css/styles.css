@@ -127,7 +127,7 @@ body {
   display: flex;
   align-items: center;
 }
-.item-nav {
+.nav__item {
   margin-right: 46px;
 }
 .nav__list > .item-header:not(:last-child) {
@@ -611,10 +611,10 @@ button::first-letter {
   position: absolute;
   bottom: 0;
 }
-.item-nav > .hover-agency {
+.nav__item > .hover-agency {
   color: var(--font-color-action);
 }
-.item-nav > .hover-portfolio {
+.nav__item > .hover-portfolio {
   color: var(--font-color-action);
 }
 .icon-button {
