@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
+    <link href="./CSStestBEMparts.css" rel="stylesheet" />
+    <title>TEST-delete</title>
+  </head>
+  <body>
+    <a class="logo-dark" href="./index.html"
+      ><span class="logo-color">Web</span>Studio</a
+    >
+    <!-- <a class="logo-light" href="./index.html"
+  ><span class="logo-color">Web</span>Studio</a
+> -->
+    <!-- nowy zapis BEM-->
+
+    <a class="logo logo--dark" href="./index.html"
+      ><span class="logo logo--color">Web</span>Studio</a
+    >
+    <a class="logo logo--light" href="./index.html"
+      ><span class="logo logo--color">Web</span>Studio</a
+    >
+  
+    <!-- czy raczej (za wzgledu na padding)
+musi być inaczej -->
+
+    <!-- <a class="header__logo header__logo--dark" href="./index.html"
+  ><span class="header__logo header__logo--color">Web</span>Studio</a
+>
+<a class="footer__logo footer__logo--light" href="./index.html"
+  ><span class="footer__logo footer__logo--color">Web</span>Studio</a
+> -->
+    <p>Logo header</p>
+    <p>
+      <a class="logo logo__header logo__header--dark" href="./index.html"
+        ><span class="logo">Web</span>Studio</a
+      >
+    </p>
+    <p>
+      <p>Logo footer</p>
+      <a class="logo logo__footer logo__footer--light" href="./index.html"
+        ><span class="logo logo--color">Web</span>Studio</a
+      >
+    </p>
+
+    <!-- ale w tym przypadku  
+<span class="header__logo header__logo--color">Web</span>
+
+JEST TAKIE SAMO JAK 
+
+<span class="footer__logo footer__logo--color">Web</span>
+
+czy nie powinno się to nazywać w takim razie jednakowo?
+
+<span class="logo-color logo-color__logo">Web</span>
+
+paddingi i displaye do header__logo i footer__logo - a do modyfikatorów same kolory
+-->
+  </body>
+</html>

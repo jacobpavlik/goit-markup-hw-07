@@ -1,0 +1,43 @@
+.logo-dark {
+  padding-right: 93px;
+  /* font-family: var(--font-secondary, sans-serif); */
+  color: var(--logo-color-second, #000000);
+  /* font-size: 26px; */
+  /* line-height: 1.19; */
+  /* letter-spacing: 0.48px; */
+}
+.logo-light {
+  /* font-family: var(--font-secondary, sans-serif); */
+  color: var(--background-color-primary, #ffffff);
+  /* font-size: 26px; */
+  /* line-height: 1.19; */
+  /* letter-spacing: 0.48px; */
+  display: block;
+  padding-bottom: 20px;
+}
+.logo-color {
+  color: var(--font-color-action, #2196f3);
+}
+body {
+  background-color: blueviolet;
+}
+.logo {
+  font-family: var(--font-secondary, sans-serif);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.48px;
+  color: var(--font-color-action, #2196f3);
+}
+.logo__header {
+  padding-right: 93px;
+}
+.logo__footer {
+  display: block;
+  padding-bottom: 20px;
+}
+.logo__header--dark {
+  color: var(--logo-color-second, #000000);
+}
+.logo__footer--light {
+  color: var(--background-color-primary, #ffffff);
+}
