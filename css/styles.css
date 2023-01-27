@@ -121,7 +121,13 @@ body {
 } */
 
 /*BEM header end*/
-.link-nav {
+/* .link-nav {
+  letter-spacing: 0.32px;
+  color: var(--font-color-primary, #212121);
+  display: flex;
+  align-items: center;
+} */
+.nav__link {
   letter-spacing: 0.32px;
   color: var(--font-color-primary, #212121);
   display: flex;
