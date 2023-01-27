@@ -26,25 +26,26 @@ body {
   background-color: var(--background-color-primary, #ffffff);
   color: var(--font-color-primary, #212121);
 }
-.logo-dark {
-  padding-right: 93px;
+/* BEM Logo - start*/
+.logo {
   font-family: var(--font-secondary, sans-serif);
-  color: var(--logo-color-second, #000000);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.48px;
+  color: var(--font-color-action, #2196f3);
 }
-.logo-light {
-  font-family: var(--font-secondary, sans-serif);
-  color: var(--background-color-primary, #ffffff);
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.48px;
+.logo__header {
+  padding-right: 93px;
+}
+.logo__footer {
   display: block;
   padding-bottom: 20px;
 }
-.logo-color {
-  color: var(--font-color-action, #2196f3);
+.logo__header--dark {
+  color: var(--logo-color-second, #000000);
+}
+.logo__footer--light {
+  color: var(--background-color-primary, #ffffff);
 }
 .link-nav {
   letter-spacing: 0.32px;
@@ -63,6 +64,7 @@ body {
 }
 .list-format {
   font-size: 14px;
+  font-style: normal;
 }
 .link-nav:focus,
 .link-nav:hover {
@@ -142,8 +144,7 @@ button::first-letter {
 .header-flex {
   display: flex;
 }
-.footer-background,
-.section-slogan {
+.footer-background {
   background-color: var(--background-color-secondary, #2f303a);
 }
 .image-bg {
@@ -153,7 +154,7 @@ button::first-letter {
   background-image: url("../images/img-overlay.png"),
     url("../images/img-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1600px;
   background-position: center;
 }
 .footer-background {
@@ -502,7 +503,7 @@ button::first-letter {
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
     0px 2px 1px #00000033;
   border-radius: 4px;
-  position: absolute;
+  position: relative;
   padding: 40px;
 }
 .label {
