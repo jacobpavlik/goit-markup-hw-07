@@ -62,38 +62,40 @@
 
     <!-- nowy zapis BEM - start -->
     <header class="header header--background-color header--border-bottom">
-      <div class="container flex">
-        <nav class="flex">
+      <div class="container d-flex">
+        <nav class="d-flex">
           <a class="logo logo__header logo__header--dark" href="./index.html"
             ><span class="logo">Web</span>Studio</a
           >
           <ul class="nav__list">
             <li class="nav__item">
-              <a class="link-nav hover-agency" href="./index.html">agencja</a>
+              <a class="nav__link nav__link--hover" href="./index.html"
+                >agencja</a
+              >
             </li>
             <li class="nav__item">
-              <a class="link-nav" href="./portfolio.html">portfolio</a>
+              <a class="nav__link" href="./portfolio.html">portfolio</a>
             </li>
             <li class="nav__item">
-              <a class="link-nav" href="#">kontakt</a>
+              <a class="nav__link" href="#">kontakt</a>
             </li>
           </ul>
         </nav>
         <ul class="nav__list">
-          <li class="item-header">
+          <li class="nav__item-header">
             <a
-              class="link-nav lowercase link-color"
+              class="nav__link nav__link--text nav__link--color"
               href="mailto:info@devstudio.com"
             >
-              <svg class="icon-nav" width="16px" height="12px">
+              <svg class="nav__icon" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item-header">
-            <a class="link-nav link-color" href="tel:+48111111111"
-              ><svg class="icon-nav" width="10px" height="16px">
+          <li class="nav__item-header">
+            <a class="nav__link nav__link--color" href="tel:+48111111111"
+              ><svg class="nav__icon" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111</a

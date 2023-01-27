@@ -47,6 +47,80 @@ body {
 .logo__footer--light {
   color: var(--background-color-primary, #ffffff);
 }
+/*BEM logo end*/
+/*BEM header start*/
+.header--background-color,
+.section-info,
+.section-work,
+.section-goods {
+  background-color: var(--background-color-primary, #ffffff);
+}
+.header--border-bottom {
+  border-bottom: 1px solid #ececec;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  position: relative;
+}
+.d-flex {
+  display: flex;
+}
+/*
+.nav__list > .item-header:not(:last-child) {
+  margin-right: 50px;
+}
+.nav__list > .item-header:not(:last-child) {
+  margin-left: 315px;
+}
+.nav__link--hover::after {
+  display: block;
+  content: "";
+  width: 53px;
+  min-height: 4px;
+  background-color: var(--font-color-action);
+  position: absolute;
+  bottom: 0;
+}
+.nav__item > .nav__link--hover {
+  color: var(--font-color-action);
+}
+.nav__item {
+  margin-right: 46px;
+}
+.nav__list > .nav__item-header:not(:last-child) {
+  margin-right: 50px;
+}
+.nav__list > .nav__item-header:not(:last-child) {
+  margin-left: 315px;
+}
+.list-format {
+  font-size: 14px;
+  font-style: normal;
+}
+.nav__link {
+  letter-spacing: 0.32px;
+  color: var(--font-color-primary, #212121);
+  display: flex;
+  align-items: center;
+}
+.nav__link:focus,
+.nav__link:hover {
+  color: var(--font-color-action, #2196f3);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav__link:hover .nav__icon {
+  fill: var(--font-color-action);
+}
+.nav__link--text {
+  text-transform: lowercase;
+}
+.nav__link--color {
+  color: var(--font-color-secondary, #757575);
+} */
+
+/*BEM header end*/
 .link-nav {
   letter-spacing: 0.32px;
   color: var(--font-color-primary, #212121);
@@ -74,9 +148,9 @@ body {
 .link-nav:hover .icon-nav {
   fill: var(--font-color-action);
 }
-.nav-flex {
+/* .nav-flex {
   display: flex;
-}
+} */
 .button-form,
 .footer-background button,
 .section-slogan button {
@@ -128,22 +202,22 @@ button:hover {
 button::first-letter {
   text-transform: uppercase;
 }
-.header-background,
+/* .header-background, */
 .section-info,
 .section-work,
 .section-goods {
   background-color: var(--background-color-primary, #ffffff);
 }
-.header-background {
+/* .header-background {
   display: flex;
   justify-content: space-between;
   padding: 24px 0;
   border-bottom: 1px solid #ececec;
   position: relative;
-}
-.header-flex {
+} */
+/* .header-flex {
   display: flex;
-}
+} */
 .footer-background {
   background-color: var(--background-color-secondary, #2f303a);
 }
