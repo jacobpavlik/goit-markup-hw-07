@@ -94,9 +94,7 @@ body {
 .nav__link:hover .nav__icon {
   fill: var(--font-color-action);
 }
-.button-form,
-.footer-background button,
-.section-slogan button {
+.button {
   color: var(--background-color-primary, #ffffff);
   background-color: var(--font-color-action, #2196f3);
   border-color: var(--font-color-action, #2196f3);
@@ -108,6 +106,20 @@ body {
   border: none;
   box-shadow: 0px 4px 4px #00000026;
 }
+/* .section-slogan button, */
+/* .footer-background button, */
+/* .button-form {
+  color: var(--background-color-primary, #ffffff);
+  background-color: var(--font-color-action, #2196f3);
+  border-color: var(--font-color-action, #2196f3);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px #00000026;
+} */
 .section-slogan button {
   padding: 10px 41px 10px 42px;
 }
@@ -144,12 +156,6 @@ button:hover {
 }
 button::first-letter {
   text-transform: uppercase;
-}
-/* .header-background, */
-.section-info,
-.section-work,
-.section-goods {
-  background-color: var(--background-color-primary, #ffffff);
 }
 .footer-background {
   background-color: var(--background-color-secondary, #2f303a);
