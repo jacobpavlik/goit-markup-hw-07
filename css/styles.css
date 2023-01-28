@@ -146,14 +146,22 @@ body {
   font-size: 14px;
   font-style: normal;
 }
-.link-nav:focus,
+.nav__link:focus,
+.nav__link:hover {
+  color: var(--font-color-action, #2196f3);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav__link:hover .icon-nav {
+  fill: var(--font-color-action);
+}
+/* .link-nav:focus,
 .link-nav:hover {
   color: var(--font-color-action, #2196f3);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav:hover .icon-nav {
   fill: var(--font-color-action);
-}
+} */
 /* .nav-flex {
   display: flex;
 } */
@@ -375,10 +383,10 @@ button::first-letter {
   line-height: 1.14;
   text-transform: capitalize;
 }
-.lowercase {
+.nav__link--text {
   text-transform: lowercase;
 }
-.link-color {
+.nav__link--color {
   color: var(--font-color-secondary, #757575);
 }
 .card-goods {
