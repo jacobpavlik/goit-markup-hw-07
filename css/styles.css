@@ -151,7 +151,7 @@ body {
   color: var(--font-color-action, #2196f3);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__link:hover .icon-nav {
+.nav__link:hover .nav__icon {
   fill: var(--font-color-action);
 }
 /* .link-nav:focus,
@@ -564,7 +564,7 @@ button::first-letter {
 .media-footer-container {
   margin-top: 12px;
 }
-.icon-nav {
+.nav__icon {
   fill: var(--font-color-secondary);
   margin-right: 10px;
 }
