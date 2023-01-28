@@ -607,7 +607,7 @@ button::first-letter {
   position: relative;
   height: 294px;
 }
-.hover-agency::after {
+.nav__link--hover-agency::after {
   display: block;
   content: "";
   width: 53px;
@@ -616,7 +616,7 @@ button::first-letter {
   position: absolute;
   bottom: 0;
 }
-.hover-portfolio::after {
+.nav__link--hover-portfolio::after {
   display: block;
   content: "";
   width: 58px;
@@ -625,10 +625,10 @@ button::first-letter {
   position: absolute;
   bottom: 0;
 }
-.nav__item > .hover-agency {
+.nav__item > .nav__link--hover-agency {
   color: var(--font-color-action);
 }
-.nav__item > .hover-portfolio {
+.nav__item > .nav__link--hover-portfolio {
   color: var(--font-color-action);
 }
 .icon-button {
