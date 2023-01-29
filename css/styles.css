@@ -196,8 +196,8 @@ button::first-letter {
 .cards--buttons > .item-button:not(:last-child) {
   margin-right: 8px;
 }
+.footer-box__title,
 .card-work__label,
-.card__footer,
 .card__header {
   font-size: 14px;
   font-weight: 700px;
@@ -208,11 +208,11 @@ button::first-letter {
 .card__header {
   margin-bottom: 10px;
 }
-.card__footer {
+.footer-box__title {
   margin-bottom: 20px;
 }
-.card-work__label,
-.card__footer {
+.footer-box__title,
+.card-work__label {
   color: var(--background-color-primary);
 }
 .label-rules,
@@ -470,7 +470,7 @@ button::first-letter {
   display: flex;
   justify-content: space-between;
 }
-.media-footer-container {
+.footer-box {
   margin-top: 12px;
 }
 .nav__icon {
