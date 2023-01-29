@@ -435,7 +435,8 @@ button::first-letter {
   padding: 12px;
   border-radius: 50px;
 }
-.div-media-footer {
+/* .div-media-footer, */
+.footer-box__item {
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -443,9 +444,12 @@ button::first-letter {
   background: #ffffff1a;
   margin-right: 10px;
 }
-.div-media-footer:active,
+/* .div-media-footer:active,
 .div-media-footer:focus,
-.div-media-footer:hover {
+.div-media-footer:hover, */
+.footer-box__item:active,
+.footer-box__item:focus,
+.footer-box__item:hover {
   background-color: var(--font-color-action);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
