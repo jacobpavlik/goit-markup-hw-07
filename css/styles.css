@@ -109,7 +109,7 @@ body {
 .button__section-slogan {
   padding: 10px 41px 10px 42px;
 }
-.footer-background button {
+.button__footer {
   padding: 10px 28px 10px 42px;
 }
 .cards button {
@@ -143,8 +143,11 @@ button:hover {
 button::first-letter {
   text-transform: uppercase;
 }
-.footer-background {
+.footer--background {
   background-color: var(--background-color-secondary, #2f303a);
+}
+.footer {
+  padding: 60px 0;
 }
 .section-slogan--background {
   height: 600px;
@@ -153,9 +156,6 @@ button::first-letter {
   background-repeat: no-repeat;
   background-size: 1600px;
   background-position: center;
-}
-.footer-background {
-  padding: 60px 0;
 }
 .section-slogan {
   text-align: center;
@@ -469,9 +469,6 @@ button::first-letter {
 .footer-flex {
   display: flex;
   justify-content: space-between;
-}
-.address-footer-container {
-  margin-right: 70px;
 }
 .media-footer-container {
   margin-top: 12px;
