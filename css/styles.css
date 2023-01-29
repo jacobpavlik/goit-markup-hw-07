@@ -245,7 +245,6 @@ button::first-letter {
 .card {
   background-color: var(--background-color-primary, #ffffff);
 }
-/* .shadow-employee, */
 .card--shadow {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -371,9 +370,9 @@ button::first-letter {
   padding: 16px 32px;
   border-radius: 4px;
 }
-.div-media:active,
-.div-media:focus,
-.div-media:hover,
+.cards-media__card:active,
+.cards-media__card:focus,
+.cards-media__card:hover,
 .icon-media:active,
 .icon-media:focus,
 .icon-media:hover {
@@ -384,7 +383,7 @@ button::first-letter {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.div-media:hover .icon-media {
+.cards-media__card:hover .icon-media {
   fill: var(--background-color-primary);
 }
 /* .icon-info:active,
@@ -427,7 +426,7 @@ button::first-letter {
   top: 0;
   right: 0;
 }
-.div-media {
+.cards-media__card {
   width: 44px;
   height: 44px;
   padding: 12px;
