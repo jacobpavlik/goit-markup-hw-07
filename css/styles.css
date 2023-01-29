@@ -160,7 +160,6 @@ button::first-letter {
 .section-slogan {
   text-align: center;
 }
-/* .main-title, */
 .section-slogan__title {
   color: var(--background-color-primary, #ffffff);
   font-size: 44px;
@@ -179,7 +178,7 @@ button::first-letter {
   align-items: center;
   justify-content: space-between;
 }
-.cards > .card:not(:last-child) {
+.cards > .card__body:not(:last-child) {
   margin-right: 30px;
 }
 .cards-set {
@@ -243,7 +242,8 @@ button::first-letter {
 .section-team {
   background-color: var(--background-color-employees, #f5f4fa);
 }
-.card {
+/* .card, */
+.card__body {
   background-color: var(--background-color-primary, #ffffff);
 }
 .shadow-employee {
