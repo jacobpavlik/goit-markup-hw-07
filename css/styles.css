@@ -462,7 +462,7 @@ button::first-letter {
 .icon-media-footer {
   fill: var(--background-color-primary);
 }
-.cards-media-footer {
+.footer-box__list {
   display: flex;
   margin-top: 0;
 }
