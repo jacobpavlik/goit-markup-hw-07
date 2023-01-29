@@ -373,6 +373,9 @@ button::first-letter {
 .cards-media__card:active,
 .cards-media__card:focus,
 .cards-media__card:hover,
+.cards-media__icon:active,
+.cards-media__icon:focus,
+.cards-media__icon:hover,
 .icon-media:active,
 .icon-media:focus,
 .icon-media:hover {
@@ -383,9 +386,12 @@ button::first-letter {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards-media__card:hover .icon-media {
+.cards-media__card:hover .cards-media__icon {
   fill: var(--background-color-primary);
 }
+/* .cards-media__card:hover .icon-media {
+  fill: var(--background-color-primary);
+} */
 /* .icon-info:active,
 .icon-info:focus,
 .icon-info:hover, */
@@ -448,7 +454,8 @@ button::first-letter {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-media {
+.icon-media,
+.cards-media__icon {
   fill: var(--icon-color-normal);
 }
 .cards-media {
