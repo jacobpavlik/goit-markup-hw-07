@@ -196,7 +196,7 @@ button::first-letter {
 .cards--buttons > .item-button:not(:last-child) {
   margin-right: 8px;
 }
-.label,
+.card-work__label,
 .card__footer,
 .card__header {
   font-size: 14px;
@@ -211,7 +211,7 @@ button::first-letter {
 .card__footer {
   margin-bottom: 20px;
 }
-.label,
+.card-work__label,
 .card__footer {
   color: var(--background-color-primary);
 }
@@ -503,7 +503,7 @@ button::first-letter {
   position: relative;
   padding: 40px;
 }
-.label {
+.card-work__label {
   position: absolute;
   bottom: 0;
   background: #2f303acc;
