@@ -178,7 +178,7 @@ button::first-letter {
   align-items: center;
   justify-content: space-between;
 }
-.cards > .card__body:not(:last-child) {
+.cards > .card:not(:last-child) {
   margin-right: 30px;
 }
 .cards-set {
@@ -242,8 +242,7 @@ button::first-letter {
 .section-team {
   background-color: var(--background-color-employees, #f5f4fa);
 }
-/* .card, */
-.card__body {
+.card {
   background-color: var(--background-color-primary, #ffffff);
 }
 .shadow-employee {
