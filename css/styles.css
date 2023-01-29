@@ -106,21 +106,6 @@ body {
   border: none;
   box-shadow: 0px 4px 4px #00000026;
 }
-/* .section-slogan button, */
-/* .footer-background button, */
-/* .button-form {
-  color: var(--background-color-primary, #ffffff);
-  background-color: var(--font-color-action, #2196f3);
-  border-color: var(--font-color-action, #2196f3);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.96px;
-  border-radius: 4px;
-  border: none;
-  box-shadow: 0px 4px 4px #00000026;
-} */
-/* .section-slogan button, */
 .button__section-slogan {
   padding: 10px 41px 10px 42px;
 }
@@ -184,7 +169,7 @@ button::first-letter {
   text-align: center;
   margin-bottom: 30px;
 }
-.slogan {
+.section-slogan--format {
   padding-top: 106px;
   width: 696px;
 }
