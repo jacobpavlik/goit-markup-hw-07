@@ -409,7 +409,7 @@ button::first-letter {
   background-color: var(--background-color-employees);
   margin-bottom: 30px;
 }
-.icon-close {
+.button-close__icon {
   fill: #000000;
   stroke: #0000001a;
   stroke-width: 1px solid;
