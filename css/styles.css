@@ -478,7 +478,7 @@ button::first-letter {
   fill: var(--font-color-secondary);
   margin-right: 10px;
 }
-.is-hidden {
+.modal--hidden {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
