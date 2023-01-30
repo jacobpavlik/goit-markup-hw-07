@@ -459,7 +459,8 @@ button::first-letter {
   justify-content: space-between;
   margin: 0 30px 30px;
 }
-.footer-box__icon {
+.footer-box__icon,
+.button__icon--color {
   fill: var(--background-color-primary);
 }
 .footer-box__list {
