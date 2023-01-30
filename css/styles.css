@@ -596,7 +596,7 @@ button::first-letter {
   top: 25px;
   fill: var(--font-color-primary);
 }
-.footer-input {
+.footer-box__input {
   padding: 15px 150px 15px 16px;
   border: 1px solid #ffffff4d;
   border-radius: 4px;
@@ -605,7 +605,7 @@ button::first-letter {
   color: var(--background-color-employees);
   outline: none;
 }
-.footer-form {
+.footer-box__form {
   display: flex;
   align-items: center;
   justify-content: center;
