@@ -612,7 +612,7 @@ button::first-letter {
   align-items: center;
   justify-content: center;
 }
-.label-modal {
+.form-modal__label {
   text-transform: capitalize;
   font-size: 12px;
   color: var(--font-color-secondary);
