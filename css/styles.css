@@ -233,7 +233,7 @@ button::first-letter {
   padding-bottom: 50px;
 }
 .label-rules::first-letter,
-.modal-form-header::first-letter,
+.form-modal__header::first-letter,
 .section-work__header::first-letter,
 .section-team__header::first-letter,
 .section-clients__header::first-letter {
@@ -621,7 +621,7 @@ button::first-letter {
   margin-bottom: 4px;
   position: relative;
 }
-.modal-form-header {
+.form-modal__header {
   font-weight: 700;
   font-size: 20px;
   text-align: center;
