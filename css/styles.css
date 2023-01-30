@@ -540,7 +540,8 @@ button::first-letter {
 .nav__item > .nav__link--hover-portfolio {
   color: var(--font-color-action);
 }
-.icon-button {
+/* .icon-button, */
+.button__icon {
   vertical-align: middle;
   margin-left: 24px;
 }
