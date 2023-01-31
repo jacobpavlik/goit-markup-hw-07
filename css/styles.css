@@ -284,11 +284,9 @@ button::first-letter {
   line-height: 1.14;
   text-transform: capitalize;
 }
-.nav__link--text {
-  text-transform: lowercase;
-}
 .nav__link--color {
   color: var(--font-color-secondary, #757575);
+  text-transform: lowercase;
 }
 .card-goods {
   flex-basis: calc((100% - 2 * var(--gap-section-goods)) / 3);
