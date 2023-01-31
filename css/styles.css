@@ -668,3 +668,15 @@ button::first-letter {
   letter-spacing: 0.48px;
   color: var(--font-color-action);
 }
+.link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.48px;
+}
+.link__box-rules {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.link__box-rules--color {
+  color: var(--font-color-action);
+}
