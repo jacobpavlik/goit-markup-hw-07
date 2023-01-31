@@ -49,20 +49,18 @@ body {
 }
 /*BEM logo end*/
 /*BEM header start*/
-.header--background-color,
 .section-info,
 .section-work,
 .section-goods {
   background-color: var(--background-color-primary, #ffffff);
-}
-.header--border-bottom {
-  border-bottom: 1px solid #ececec;
 }
 .header {
   display: flex;
   justify-content: space-between;
   padding: 24px 0;
   position: relative;
+  background-color: var(--background-color-primary, #ffffff);
+  border-bottom: 1px solid #ececec;
 }
 .d-flex {
   display: flex;
