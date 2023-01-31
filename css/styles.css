@@ -150,9 +150,6 @@ button::first-letter {
   background-position: center;
   text-align: center;
 }
-/* .section-slogan {
-  text-align: center;
-} */
 .section-slogan__title {
   color: var(--background-color-primary, #ffffff);
   font-size: 44px;
@@ -215,9 +212,7 @@ button::first-letter {
   letter-spacing: 0.48px;
   color: var(--font-color-secondary, #757575);
 }
-.section-work__header,
-.section-team__header,
-.section-clients__header {
+.section__header {
   font-size: 36px;
   font-weight: 700px;
   line-height: 1.17;
@@ -227,9 +222,7 @@ button::first-letter {
 }
 .box-rules__label::first-letter,
 .form-modal__header::first-letter,
-.section-work__header::first-letter,
-.section-team__header::first-letter,
-.section-clients__header::first-letter {
+.section__header::first-letter {
   text-transform: uppercase;
 }
 .section-team {
