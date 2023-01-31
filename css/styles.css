@@ -141,17 +141,18 @@ button::first-letter {
   padding: 60px 0;
   background-color: var(--background-color-secondary, #2f303a);
 }
-.section-slogan--background {
+.section-slogan {
   height: 600px;
   background-image: url("../images/img-overlay.png"),
     url("../images/img-bg.png");
   background-repeat: no-repeat;
   background-size: 1600px;
   background-position: center;
-}
-.section-slogan {
   text-align: center;
 }
+/* .section-slogan {
+  text-align: center;
+} */
 .section-slogan__title {
   color: var(--background-color-primary, #ffffff);
   font-size: 44px;
