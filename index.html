@@ -474,62 +474,55 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form name="orderForm" class="form-modal">
-          <h3 class="form-modal__header">
-            zostaw swoje dane w formularzu poniżej
-          </h3>
-          <label for="name" class="form-modal__label"
+        <form name="orderForm" class="form">
+          <h3 class="form__header">zostaw swoje dane w formularzu poniżej</h3>
+          <label for="name" class="form__label"
             >imię
-            <input
-              id="name"
-              type="text"
-              name="userName"
-              class="form-modal__input"
-            />
+            <input id="name" type="text" name="userName" class="form__input" />
             <svg
-              class="form-modal__icon form-modal__icon--color"
+              class="form__icon form__icon--color"
               width="18px"
               height="18px"
             >
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </label>
-          <label for="telephone" class="form-modal__label"
+          <label for="telephone" class="form__label"
             >telefon
             <input
               id="telephone"
               type="tel"
               name="userPhone"
-              class="form-modal__input"
+              class="form__input"
             />
             <svg
-              class="form-modal__icon form-modal__icon--color"
+              class="form__icon form__icon--color"
               width="18px"
               height="18px"
             >
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </label>
-          <label for="emailaddress" class="form-modal__label"
+          <label for="emailaddress" class="form__label"
             >email
             <input
               id="emailaddress"
               type="email"
               name="userEmail"
-              class="form-modal__input"
+              class="form__input"
             />
             <svg
-              class="form-modal__icon form-modal__icon--color"
+              class="form__icon form__icon--color"
               width="18px"
               height="18px"
             >
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </label>
-          <label for="reviewarea" class="form-modal__label"
+          <label for="reviewarea" class="form__label"
             >komentarz
             <textarea
-              class="form-modal__textarea"
+              class="form__textarea"
               id="reviewarea"
               placeholder="Wprowadź tekst"
               name="userReview"
@@ -551,9 +544,7 @@
               >politykę prywatności</a
             ></label
           >
-          <button type="submit" class="button form-modal__button">
-            wyślij
-          </button>
+          <button type="submit" class="button form__button">wyślij</button>
         </form>
       </div>
     </div>
