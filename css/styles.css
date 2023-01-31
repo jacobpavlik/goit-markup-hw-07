@@ -186,14 +186,14 @@ button::first-letter {
   flex-wrap: wrap;
   gap: var(--gap-section-goods);
 }
-.cards--buttons {
+.cards__buttons {
   justify-content: center;
   margin-bottom: 50px;
 }
-.cards--buttons button {
+.filter-item__button {
   padding: 6px 22px;
 }
-.cards--buttons > .item-button:not(:last-child) {
+.cards__buttons > .filter-item:not(:last-child) {
   margin-right: 8px;
 }
 .footer-box__title,
