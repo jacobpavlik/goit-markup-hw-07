@@ -215,7 +215,7 @@ button::first-letter {
 .card-work__label {
   color: var(--background-color-primary);
 }
-.label-rules,
+.box-rules__label,
 .card__info {
   font-size: 14px;
   line-height: 1.71;
@@ -232,7 +232,7 @@ button::first-letter {
   text-align: center;
   padding-bottom: 50px;
 }
-.label-rules::first-letter,
+.box-rules__label::first-letter,
 .form-modal__header::first-letter,
 .section-work__header::first-letter,
 .section-team__header::first-letter,
@@ -563,14 +563,15 @@ button::first-letter {
 .box-rules {
   appearance: none;
 }
-.label-rules {
+.label-rule,
+.box-rules__label {
   position: relative;
   cursor: pointer;
   align-self: center;
   margin-bottom: 30px;
   margin-left: 7px;
 }
-.label-rules::before {
+.box-rules__label::before {
   display: block;
   position: absolute;
   content: "";
@@ -581,7 +582,7 @@ button::first-letter {
   left: -20px;
   border: 1px solid var(--font-color-primary);
 }
-.box-rules:checked + .label-rules::before {
+.box-rules:checked + .box-rules__label::before {
   background-color: var(--font-color-action);
   background-image: url("../images/checkmark.svg");
   background-position: center;
