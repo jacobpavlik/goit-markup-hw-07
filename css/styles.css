@@ -70,10 +70,10 @@ body {
 .nav__item {
   margin-right: 46px;
 }
-.nav__list > .nav__item-header:not(:last-child) {
+.nav > .nav__item-header:not(:last-child) {
   margin-right: 50px;
 }
-.nav__list > .nav__item-header:not(:last-child) {
+.nav > .nav__item-header:not(:last-child) {
   margin-left: 315px;
 }
 .list-format {
@@ -275,7 +275,7 @@ button::first-letter {
   line-height: 1.71;
   color: #ffffff99;
 }
-.nav__list {
+.nav {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -510,7 +510,7 @@ button::first-letter {
   position: relative;
   height: 294px;
 }
-.nav__link--hover-agency::after {
+.nav__link--active::after {
   display: block;
   content: "";
   width: 53px;
@@ -519,7 +519,7 @@ button::first-letter {
   position: absolute;
   bottom: 0;
 }
-.nav__link--hover-portfolio::after {
+.nav__link--active-portfolio::after {
   display: block;
   content: "";
   width: 58px;
@@ -528,10 +528,10 @@ button::first-letter {
   position: absolute;
   bottom: 0;
 }
-.nav__item > .nav__link--hover-agency {
+.nav__item > .nav__link--active {
   color: var(--font-color-action);
 }
-.nav__item > .nav__link--hover-portfolio {
+.nav__item > .nav__link--active-portfolio {
   color: var(--font-color-action);
 }
 .button__icon {
