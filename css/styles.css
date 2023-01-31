@@ -581,8 +581,6 @@ button::first-letter {
   position: absolute;
   left: 15px;
   top: 25px;
-}
-.form__icon--color {
   fill: var(--font-color-primary);
 }
 .footer-box__input {
