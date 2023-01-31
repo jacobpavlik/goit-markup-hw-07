@@ -34,18 +34,14 @@ body {
   letter-spacing: 0.48px;
   color: var(--font-color-action, #2196f3);
 }
-.logo__header {
-  padding-right: 93px;
-}
-.logo__footer {
-  display: block;
+.logo--light {
+  display: inline-block;
   padding-bottom: 20px;
-}
-.logo__header--dark {
-  color: var(--logo-color-second, #000000);
-}
-.logo__footer--light {
   color: var(--background-color-primary, #ffffff);
+}
+.logo--dark {
+  color: var(--logo-color-second, #000000);
+  padding-right: 93px;
 }
 /*BEM logo end*/
 /*BEM header start*/
@@ -141,11 +137,9 @@ button:hover {
 button::first-letter {
   text-transform: uppercase;
 }
-.footer--background {
-  background-color: var(--background-color-secondary, #2f303a);
-}
 .footer {
   padding: 60px 0;
+  background-color: var(--background-color-secondary, #2f303a);
 }
 .section-slogan--background {
   height: 600px;
