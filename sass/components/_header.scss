@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  position: relative;
+  background-color: $backgroundColorPrimary;
+  border-bottom: 1px solid #ececec;
+}
+.d-flex {
+  display: flex;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-transform: capitalize;
+
+  & > .nav__item-header:not(:last-child) {
+    margin-right: 50px;
+  }
+  & > .nav__item-header:not(:last-child) {
+    margin-left: 315px;
+  }
+  &__item {
+    margin-right: 46px;
+    & > .nav__link--active {
+      color: $fontColorAction;
+    }
+    & > .nav__link--active-portfolio {
+      color: $fontColorAction;
+    }
+  }
+
+  &__icon {
+    fill: $fontColorSecondary;
+    margin-right: 10px;
+  }
+  &__link {
+    letter-spacing: 0.32px;
+    color: $fontColorPrimary;
+    display: flex;
+    align-items: center;
+
+    &:focus,
+    &:hover {
+      color: $fontColorAction;
+      transition: color $transition;
+    }
+    &:hover .nav__icon {
+      fill: $fontColorAction;
+    }
+    &--active::after {
+      display: block;
+      content: "";
+      width: 53px;
+      min-height: 4px;
+      background-color: $fontColorAction;
+      position: absolute;
+      bottom: 0;
+    }
+    &--active-portfolio::after {
+      display: block;
+      content: "";
+      width: 58px;
+      min-height: 4px;
+      background-color: $fontColorAction;
+      position: absolute;
+      bottom: 0;
+    }
+    &--color {
+      color: $fontColorSecondary;
+      text-transform: lowercase;
+    }
+  }
+}
