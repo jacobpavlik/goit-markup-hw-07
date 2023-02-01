@@ -11,7 +11,7 @@
       "savePath": "~/../public/css"
     },
     {
-      "format": "commpressed",
+      "format": "compressed",
       "extensionName": "min.css",
       "savePath": "~/../css"
     }

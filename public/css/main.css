@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif, sans-serif;
+  background-color: #ffffff, #ffffff;
+  color: #212121, #212121;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.48px;
+  color: #2196f3;
+}
+.logo--light {
+  display: inline-block;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+.logo--dark {
+  color: #000000;
+  padding-right: 93px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: $fontPrimary, sans-serif;
+  background-color: $backgroundColorPrimary, #ffffff;
+  color: $fontColorPrimary, #212121;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
