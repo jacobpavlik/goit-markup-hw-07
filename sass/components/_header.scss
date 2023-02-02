@@ -18,20 +18,31 @@
   line-height: 1.14;
   text-transform: capitalize;
 
-  & > .nav__item-header:not(:last-child) {
+  &__item-header:not(:last-child) {
     margin-right: 50px;
   }
-  & > .nav__item-header:not(:last-child) {
+  &__item-header:not(:last-child) {
     margin-left: 315px;
   }
+  //DEL->sprawdzić czy działa - jak cała strona będzie!! Dopiero potem skasować
+  // & > .nav__item-header:not(:last-child) {
+  //   margin-right: 50px;
+  // }
+  // & > .nav__item-header:not(:last-child) {
+  //   margin-left: 315px;
+  // }
+
+  //DEL->sprawdzić czy działa - jak cała strona będzie!! Dopiero potem skasować
+  //przeniosłem niżej pod nav__link i działa!
+  //jak zmieniam & > .nav__link--active na &__link--active to napis "Active" gubi kolor
+  //   & > .nav__link--active {
+  //     color: $fontColorAction;
+  //   }
+  //   & > .nav__link--active-portfolio {
+  //     color: $fontColorAction;
+  //   }
   &__item {
     margin-right: 46px;
-    & > .nav__link--active {
-      color: $fontColorAction;
-    }
-    & > .nav__link--active-portfolio {
-      color: $fontColorAction;
-    }
   }
 
   &__icon {
@@ -43,6 +54,15 @@
     color: $fontColorPrimary;
     display: flex;
     align-items: center;
+
+    //
+    &--active {
+      color: $fontColorAction;
+    }
+    &--active-portfolio {
+      color: $fontColorAction;
+    }
+    //
 
     &:focus,
     &:hover {
