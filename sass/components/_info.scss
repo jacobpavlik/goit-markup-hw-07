@@ -2,28 +2,3 @@
   background-color: $backgroundColorPrimary;
   padding-bottom: 0;
 }
-.card {
-  background-color: $backgroundColorPrimary;
-
-  &__icon {
-    padding: 25px 100px;
-    border-radius: 4px;
-    fill: $fontColorPrimary;
-    background-color: $backgroundColorEmployees;
-    margin-bottom: 30px;
-  }
-  &__header {
-    font-size: 14px;
-    font-weight: 700px;
-    letter-spacing: 0.48px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  &__info {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.48px;
-    color: $fontColorSecondary;
-  }
-}
