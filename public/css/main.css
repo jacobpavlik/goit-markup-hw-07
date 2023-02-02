@@ -25,6 +25,17 @@ body {
 .section {
   padding: 94px 0;
 }
+.section__header {
+  font-size: 36px;
+  font-weight: 700px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section__header::first-letter {
+  text-transform: uppercase;
+}
 
 .button {
   color: #ffffff;
@@ -248,4 +259,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.48px;
   color: #757575;
+}
+
+.section-work {
+  background-color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
