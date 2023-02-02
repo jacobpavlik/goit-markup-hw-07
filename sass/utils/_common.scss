@@ -10,10 +10,25 @@ ul {
 }
 body {
   font-family: $fontPrimary, sans-serif;
-  background-color: $backgroundColorPrimary, #ffffff;
+  background-color: $backgroundColorPrimary;
   color: $fontColorPrimary, #212121;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.section {
+  padding: 94px 0;
+}
+.button {
+  color: $backgroundColorPrimary;
+  background-color: $fontColorAction;
+  border-color: $fontColorAction;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px #00000026;
 }
