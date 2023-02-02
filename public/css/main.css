@@ -313,4 +313,33 @@ body {
 
 .section-team {
   background-color: #f5f4fa;
+}
+
+.cards-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 30px 30px;
+}
+.cards-media__icon {
+  fill: #afb1b8;
+}
+.cards-media__card {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50px;
+}
+.cards-media__card:active, .cards-media__card:focus, .cards-media__card:hover, .cards-media__icon:active, .cards-media__icon:focus, .cards-media__icon:hover {
+  background-color: #2196f3;
+  fill: #ffffff;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cards-media__card:hover .cards-media__icon {
+  fill: #ffffff;
 }/*# sourceMappingURL=main.css.map */
