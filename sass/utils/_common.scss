@@ -31,4 +31,43 @@ body {
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px #00000026;
+
+  &:focus,
+  &:active,
+  &:hover {
+    background-color: $fontColorAction;
+    border-color: $fontColorAction;
+    color: $backgroundColorPrimary;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
+      0px 2px 2px #0000001f;
+    transition: background-color $transition, border-color $transition,
+      color $transition, cursor $transition, box-shadow $transition;
+  }
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & > .card:not(:last-child) {
+    margin-right: 30px;
+  }
+  & .button {
+    background-color: $backgroundColorEmployees;
+    border-color: $backgroundColorEmployees;
+    color: $fontColorPrimary;
+    font-family: $fontPrimary;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    justify-content: center;
+    border: none;
+  }
 }
