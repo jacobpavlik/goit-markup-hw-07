@@ -444,8 +444,7 @@ body {
   justify-content: space-between;
   margin: 0 30px 30px;
 }
-.footer-box__icon,
-.button__icon--color {
+.footer-box__icon {
   fill: var(--background-color-primary);
 }
 .footer-box__list {
@@ -529,6 +528,7 @@ body {
 .button__icon {
   vertical-align: middle;
   margin-left: 24px;
+  fill: var(--background-color-primary);
 }
 .form__textarea {
   width: 100%;
