@@ -83,4 +83,18 @@ body {
     justify-content: center;
     border: none;
   }
+  &__client-icon {
+    outline: 1px solid $iconColorNormal;
+    fill: $iconColorNormal;
+    padding: 16px 32px;
+    border-radius: 4px;
+  }
+  &__client-icon:active,
+  &__client-icon:focus,
+  &__client-icon:hover {
+    outline-color: $fontColorAction;
+    fill: $fontColorAction;
+    cursor: pointer;
+    transition: outline-color $transition, fill $transition, cursor $transition;
+  }
 }
