@@ -548,7 +548,6 @@ body {
 .box-rules {
   appearance: none;
 }
-.label-rule,
 .box-rules__label {
   position: relative;
   cursor: pointer;
