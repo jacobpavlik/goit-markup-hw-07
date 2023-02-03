@@ -1,0 +1,17 @@
+.section-goods {
+  background-color: $backgroundColorPrimary;
+}
+.filter-item__button {
+  padding: 6px 22px;
+  background-color: $backgroundColorEmployees;
+  border-color: $backgroundColorEmployees;
+  color: $fontColorPrimary;
+  font-family: $fontPrimary;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  justify-content: center;
+  border: none;
+}

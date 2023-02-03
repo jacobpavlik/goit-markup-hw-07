@@ -78,19 +78,6 @@ body {
   & > .card:not(:last-child) {
     margin-right: 30px;
   }
-  & .button {
-    background-color: $backgroundColorEmployees;
-    border-color: $backgroundColorEmployees;
-    color: $fontColorPrimary;
-    font-family: $fontPrimary;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    justify-content: center;
-    border: none;
-  }
   &__client-icon {
     outline: 1px solid $iconColorNormal;
     fill: $iconColorNormal;
@@ -104,5 +91,12 @@ body {
     fill: $fontColorAction;
     cursor: pointer;
     transition: outline-color $transition, fill $transition, cursor $transition;
+  }
+  &__buttons {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  &__buttons > .filter-item:not(:last-child) {
+    margin-right: 8px;
   }
 }
