@@ -63,4 +63,18 @@
     cursor: pointer;
     transition: background-color $transition, cursor $transition;
   }
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__input {
+    padding: 15px 150px 15px 16px;
+    border: 1px solid #ffffff4d;
+    border-radius: 4px;
+    background-color: $backgroundColorSecondary;
+    margin-right: 12px;
+    color: $backgroundColorEmployees;
+    outline: none;
+  }
 }
