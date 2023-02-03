@@ -1,0 +1,27 @@
+.footer {
+  padding: 60px 0;
+  background-color: $backgroundColorSecondary;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.list-format {
+  font-size: 14px;
+  font-style: normal;
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    text-transform: capitalize;
+    color: $backgroundColorPrimary;
+  }
+  &__text::first-letter {
+    text-transform: lowercase;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff99;
+  }
+}
