@@ -45,7 +45,6 @@ body {
 }
 /*BEM logo end*/
 /*BEM header start*/
-.section-info,
 .section-work,
 .section-goods {
   background-color: var(--background-color-primary, #ffffff);
@@ -346,7 +345,7 @@ body {
 .section {
   padding: 94px 0;
 }
-.section-info {
+.section__info {
   padding-bottom: 0;
 }
 .cards__client-icon {
