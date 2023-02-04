@@ -296,7 +296,6 @@ body {
 }
 
 .section-info {
-  background-color: #ffffff;
   padding-bottom: 0;
 }
 
@@ -373,20 +372,20 @@ body {
           justify-content: space-between;
 }
 
-.list-format {
+.contact {
   font-size: 14px;
   font-style: normal;
 }
-.list-format__text {
+.contact__text {
   font-size: 14px;
   line-height: 1.71;
   text-transform: capitalize;
   color: #ffffff;
 }
-.list-format__text::first-letter {
+.contact__text::first-letter {
   text-transform: lowercase;
 }
-.list-format__link {
+.contact__link {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);

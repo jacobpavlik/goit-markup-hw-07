@@ -76,7 +76,7 @@ body {
 .nav > .nav__item-header:not(:last-child) {
   margin-left: 315px;
 }
-.list-format {
+.contact {
   font-size: 14px;
   font-style: normal;
 }
@@ -255,16 +255,16 @@ body {
   margin: 0 0 16px;
   color: var(--font-color-secondary);
 }
-.list-format__text {
+.contact__text {
   font-size: 14px;
   line-height: 1.71;
   text-transform: capitalize;
   color: var(--background-color-primary, #ffffff);
 }
-.list-format__text::first-letter {
+.contact__text::first-letter {
   text-transform: lowercase;
 }
-.list-format__link {
+.contact__link {
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff99;
